@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="title">opa</h1>
+  <p id="description">bla</p>
+  <form id="survey-form">
+    <label for="name" id="name-label" >Click me</label>
+    <input id="name" required  type="text" placeholder='1'>
+
+    <label for="email" id="email-label">Click me</label>
+    <input id="email" required  type="email" placeholder='2'>
+
+    <label for="number" id="number-label">Click me</label>
+    <input id="number" required  type="number" placeholder='3' min="1" max="18">
+
+    <select id="dropdown">
+      <option>Пункт 1</option>
+      <option>Пункт 2</option>  
+    </select>
+
+    <input type="radio" id="contactChoice1"
+      name="contact" value="email">
+    <label for="contactChoice1">Email</label>
+
+    <input type="radio" id="contactChoice2"
+      name="contact" value="phone">
+    <label for="contactChoice2">Phone</label>
+
+    <input type="checkbox" id="contactChoice1"
+      name="contact" value="email">
+    <label for="contactChoice1">Email</label>
+
+    <input type="checkbox" id="contactChoice2"
+      name="contact" value="phone">
+    <label for="contactChoice2">Phone</label>
+
+    <textarea placeholder='comms' rows="10" cols="45" name="text"></textarea>
+
+    <button id="submit" type="submit">Надпись на кнопке</button>
+  </form>
+</body>
+</html>
+
